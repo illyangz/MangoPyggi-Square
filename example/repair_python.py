@@ -33,6 +33,7 @@ class MyTreeProgram(TreeProgram, MyProgram):
 class MyTabuSearch(LocalSearch):
     def setup(self):
         self.tabu = []
+    
 
     def get_neighbour(self, patch):
         while True:
